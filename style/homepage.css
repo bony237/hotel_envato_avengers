@@ -1,19 +1,32 @@
-header {
-  width: 100%;
-  height: 579px;
-  background: url("bg1.png") no-repeat center;
+/*style whole document*/
+body {
   font-family: "Sansation", arial;
-  color: white;
-  position: absolute;
-  top: 0;
+  width: 100%;
+  max-width: 1440px;
 }
 
-.bookBtn {
+.formatBtn {
   background-color: #16264c;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   color: white;
   border: transparent 1px solid;
   border-radius: 5px;
+}
+
+.singleColor {
+  color: #16264c;
+}
+
+/*end style whole document*/
+
+/*style header*/
+header {
+  width: 100%;
+  height: 579px;
+  position: absolute;
+  top: 0;
+  background: url("bg1.png") no-repeat center;
+  color: white;
 }
 
 .sloganText {
@@ -28,3 +41,53 @@ header {
   width: 100%;
   background-color: #0000008f;
 }
+
+/*end style Header*/
+
+/*style about_us*/
+
+.about_us {
+  position: absolute;
+  top: 579px;
+  width: 100%;
+  height: 579px;
+}
+
+.blockImg {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.positioningBloc {
+  position: relative;
+  height: 100%;
+}
+
+.blockImg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  right: 0;
+}
+
+.blockImg img {
+  position: absolute;
+}
+
+.blockImg img:first-child {
+  top: 35%;
+  left: 30%;
+}
+
+.blockImg img:nth-child(2) {
+  left: 5%;
+  top: 15%;
+}
+
+.blockImg img:nth-child(3) {
+  top: 1%;
+  right: 5%;
+}
+
+/*end style about_us*/
