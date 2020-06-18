@@ -10,7 +10,15 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   color: white;
   border: transparent 1px solid;
-  border-radius: 5px;
+  border-radius: 8px;
+}
+
+.formatBtn-outline {
+  border: 1px solid#16264c;
+  border-radius: 8px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #16264c;
+  background-color: transparent;
 }
 
 .singleColor {
@@ -91,3 +99,15 @@ header {
 }
 
 /*end style about_us*/
+
+/*style Rooms*/
+
+.rooms {
+  position: absolute;
+  top: 1100px;
+  width: 100%;
+  height: 579px;
+
+  /*border: solid;*/
+}
+/*end style Rooms*/
