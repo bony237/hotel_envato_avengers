@@ -13,13 +13,17 @@
       rel="stylesheet"
       type="text/css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="./style/homepage.css" />
   </head>
   <body>
     <!--header-->
     <header class="position-relative">
-      <div class="bgColor d-flex align-items-center align-items-sm-start">
-        <div>
+      <div class="bgColorHeader d-flex align-items-center align-items-sm-start">
+        <div class="w-100">
           <div
             class="mx-5 mt-3 d-flex flex-row justify-content-between align-items-start"
           >
@@ -61,7 +65,7 @@
       class="about_us singleColor position-relative d-flex align-items-center"
     >
       <div class="container">
-        <p class="h1 text-center mb-5 font-weight-bold">ABOUT US</p>
+        <p class="h1 text-center m-5 font-weight-bold">ABOUT US</p>
         <div
           class="d-flex flex-row flex-wrap positioningBloc position-relative"
         >
@@ -116,7 +120,7 @@
     <!--Explore rooms-->
     <div class="singleColor rooms position-relative d-flex align-items-center">
       <div class="container">
-        <h1 class="font-weight-bold mb-3 text-center">EXPLORE ROOMS</h1>
+        <h1 class="font-weight-bold mt-5 mb-4 text-center">EXPLORE ROOMS</h1>
 
         <div
           class="d-flex flex-lg-row flex-column flex-wrap justify-content-between align-items-center"
@@ -174,7 +178,9 @@
       class="explore_facilities bgColor2 singleColor position-relative d-flex align-items-center"
     >
       <div class="container">
-        <h1 class="text-center font-weight-bold mb-3">EXPLORE FACILITIES</h1>
+        <h1 class="text-center font-weight-bold mt-5 mb-3">
+          EXPLORE FACILITIES
+        </h1>
         <div
           class="d-flex flex-md-row flex-column flex-wrap justify-content-between align-items-center"
         >
@@ -243,7 +249,7 @@
       class="services singleColor position-relative d-flex align-items-center my-5"
     >
       <div class="container">
-        <h1 class="text-center font-weight-bold mb-3">OUR SERVICES</h1>
+        <h1 class="text-center font-weight-bold mt-3 mb-5">OUR SERVICES</h1>
         <div
           class="my-4 d-flex flex-md-row flex-column flex-wrap justify-content-between align-items-center align-items-md-end"
         >
@@ -299,5 +305,82 @@
       </div>
     </div>
     <!--Our services-->
+
+    <!--Mailing-->
+    <div
+      class="mailing bgColor2 position-relative d-flex align-items-center mt-5"
+    >
+      <div class="container w-md-50 text-center">
+        <h1 class="text-center singleColor font-weight-bold mb-3">
+          SUBSCRIBE FOR NEWSLETTER
+        </h1>
+        <div
+          class="my-4 d-flex flex-column justify-content-between align-items-center"
+        >
+          <input
+            type="email"
+            name="email"
+            id="email_visitor"
+            placeholder="Enter Email Address"
+            class="text-white form-control form-control-lg col-md-6"
+          />
+          <div class="mt-5 h3 font-weight-bold">
+            By Subcribing to our Mailing List you will always
+          </div>
+          <div class="h3 font-weight-bold">
+            be Update with Latest News from us.
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end Mailing-->
+
+    <!--Footer-->
+    <footer class="position-relative">
+      <div
+        class="container pt-5 d-flex flex-sm-row flex-wrap flex-column justify-content-center align-items-center"
+      >
+        <div class="d-flex align-items-center justify-content-center mr-sm-5">
+          <div class="w-100">
+            <p class="h1 m-0 pb-0 text-center">GRAND</p>
+            <p class="h4 mt-0 text-center">
+              <i class="fa fa-linkedin mx-3" aria-hidden="true"></i>
+              <i class="fa fa-pinterest-p mx-3" aria-hidden="true"></i>
+              <i class="fa fa-instagram mx-3" aria-hidden="true"></i>
+              <i class="fa fa-facebook mx-3" aria-hidden="true"></i>
+              <i class="fa fa-twitter mx-3" aria-hidden="true"></i>
+            </p>
+          </div>
+        </div>
+        <div>
+          <div class="d-flex flex-row justify-content-arround">
+            <div class="footer_links mx-4 my-3">
+              <p class="h4 my-4 font-weight-bolder">Quick Links</p>
+              <p class="h5">Home</p>
+              <p class="h5">About</p>
+              <p class="h5">Facilities</p>
+            </div>
+            <div class="footer_rooms mx-4 my-3">
+              <p class="h4 my-4 font-weight-bolder">Rooms</p>
+              <p class="h5">Presidential</p>
+              <p class="h5">Executive</p>
+              <p class="h5">Classic</p>
+              <p class="h5">Premium</p>
+              <p class="h5">Deluxe</p>
+              <p class="h5">Budget</p>
+            </div>
+            <div class="footer_contact mx-4 my-3">
+              <p class="h4 my-4 font-weight-bolder">Contact</p>
+              <p class="h5">+234 701 234 5678</p>
+              <p class="h5">info@grand.com</p>
+              <p class="h5">10, thompson way,</p>
+              <p class="h5">victoria island, Lagos</p>
+            </div>
+          </div>
+          <p class="h4 m-5 pl-5 font-weight-bold">©GRAND 2020</p>
+        </div>
+      </div>
+    </footer>
+    <!--end Footer-->
   </body>
 </html>
