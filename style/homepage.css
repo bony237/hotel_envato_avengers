@@ -25,14 +25,16 @@ body {
   color: #16264c;
 }
 
+.bgColor2 {
+  background-color: #d4e0fc;
+}
+
 /*end style whole document*/
 
 /*style header*/
 header {
   width: 100%;
-  height: 579px;
-  position: absolute;
-  top: 0;
+  min-height: 579px;
   background: url("bg1.png") no-repeat center;
   color: white;
 }
@@ -44,7 +46,6 @@ header {
 }
 
 .bgColor {
-  position: absolute;
   height: 100%;
   width: 100%;
   background-color: #0000008f;
@@ -55,37 +56,24 @@ header {
 /*style about_us*/
 
 .about_us {
-  position: absolute;
-  top: 579px;
   width: 100%;
-  height: 579px;
-}
-
-.blockImg {
-  position: relative;
-  width: 100%;
-  height: 100%;
+  min-height: 579px;
 }
 
 .positioningBloc {
-  position: relative;
+  width: 100%;
   height: 100%;
 }
 
 .blockImg {
-  position: absolute;
   width: 100%;
   height: 100%;
   right: 0;
 }
 
-.blockImg img {
-  position: absolute;
-}
-
 .blockImg img:first-child {
-  top: 35%;
-  left: 30%;
+  bottom: 1%;
+  left: 20%;
 }
 
 .blockImg img:nth-child(2) {
@@ -94,8 +82,8 @@ header {
 }
 
 .blockImg img:nth-child(3) {
-  top: 1%;
-  right: 5%;
+  top: 10%;
+  right: 8%;
 }
 
 /*end style about_us*/
@@ -103,11 +91,16 @@ header {
 /*style Rooms*/
 
 .rooms {
-  position: absolute;
-  top: 1100px;
   width: 100%;
-  height: 579px;
+  min-height: 579px;
 
   /*border: solid;*/
 }
 /*end style Rooms*/
+
+/*style Explore facilities*/
+.explore_facilities {
+  width: 100%;
+  min-height: 579px;
+}
+/*style Explore facilities*/

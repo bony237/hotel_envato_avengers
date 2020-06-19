@@ -17,7 +17,7 @@
   </head>
   <body>
     <!--header-->
-    <header>
+    <header class="position-relative">
       <div class="bgColor d-flex align-items-center align-items-sm-start">
         <div>
           <div
@@ -57,10 +57,14 @@
     <!--end header-->
 
     <!--About-us-->
-    <div class="about_us singleColor">
+    <div
+      class="about_us singleColor position-relative d-flex align-items-center"
+    >
       <div class="container">
-        <p class="h1 text-center my-5 font-weight-bold">ABOUT US</p>
-        <div class="d-flex flex-row flex-wrap positioningBloc">
+        <p class="h1 text-center mb-5 font-weight-bold">ABOUT US</p>
+        <div
+          class="d-flex flex-row flex-wrap positioningBloc position-relative"
+        >
           <div class="col-12 col-lg-6">
             <p class="h4 font-weight-bold">PICK A ROOM THAT BEST SUITS</p>
             <p class="h4 font-weight-bold">YOUR TASTE AND BUDGET</p>
@@ -83,11 +87,25 @@
               Read more
             </div>
           </div>
-          <div class="col-12 col-lg-6 d-none d-lg-block blockImg">
+          <div
+            class="col-12 col-lg-6 d-none d-lg-block position-absolute blockImg"
+          >
             <div class="d-flex align-items-center justify-content-center">
-              <img src="style/meeting_room.png" alt="meeting_room" />
-              <img src="style/reception_oom.png" alt="reception_oom" />
-              <img src="style/swimming_pool.png" alt="swimming_pool" />
+              <img
+                src="style/meeting_room.png"
+                alt="meeting_room"
+                class="position-absolute"
+              />
+              <img
+                src="style/reception_oom.png"
+                alt="reception_oom"
+                class="position-absolute"
+              />
+              <img
+                src="style/swimming_pool.png"
+                alt="swimming_pool"
+                class="position-absolute"
+              />
             </div>
           </div>
         </div>
@@ -96,11 +114,12 @@
     <!--end About-us-->
 
     <!--Explore rooms-->
-    <div class="singleColor my-3 container position-relative">
-      <div class="rooms">
-        <h1 class="font-weight-bold my-5 text-center">EXPLORE ROOMS</h1>
+    <div class="singleColor rooms position-relative d-flex align-items-center">
+      <div class="container">
+        <h1 class="font-weight-bold mb-3 text-center">EXPLORE ROOMS</h1>
+
         <div
-          class="d-flex flex-row flex-wrap justify-content-between align-items-center"
+          class="d-flex flex-lg-row flex-column flex-wrap justify-content-between align-items-center"
         >
           <div class="my-4">
             <img src="style/premium.png" alt="premium" />
@@ -111,7 +130,9 @@
               <div class="btn formatBtn mx-2 font-weight-bold">
                 View Details
               </div>
-              <div class="btn formatBtn-outline font-weight-bold">Book Now</div>
+              <div class="btn formatBtn-outline font-weight-bold">
+                Book Now
+              </div>
             </div>
           </div>
           <div class="my-4">
@@ -123,7 +144,9 @@
               <div class="btn formatBtn mx-2 font-weight-bold">
                 View Details
               </div>
-              <div class="btn formatBtn-outline font-weight-bold">Book Now</div>
+              <div class="btn formatBtn-outline font-weight-bold">
+                Book Now
+              </div>
             </div>
           </div>
           <div class="my-4">
@@ -135,7 +158,9 @@
               <div class="btn formatBtn mx-2 font-weight-bold">
                 View Details
               </div>
-              <div class="btn formatBtn-outline font-weight-bold">Book Now</div>
+              <div class="btn formatBtn-outline font-weight-bold">
+                Book Now
+              </div>
             </div>
           </div>
         </div>
@@ -143,5 +168,74 @@
     </div>
 
     <!--end Explore rooms-->
+
+    <!--Explore facilities-->
+    <div
+      class="explore_facilities bgColor2 singleColor position-relative d-flex align-items-center"
+    >
+      <div class="container">
+        <h1 class="text-center font-weight-bold mb-3">EXPLORE FACILITIES</h1>
+        <div
+          class="d-flex flex-md-row flex-column flex-wrap justify-content-between align-items-center"
+        >
+          <div class="my-4">
+            <img src="style/gym.png" alt="gym" />
+            <hr />
+            <p class="h2 text-center font-weight-bold">GYM</p>
+          </div>
+          <div class="my-4">
+            <img src="style/spa.png" alt="spa" />
+            <hr />
+            <p class="h2 text-center font-weight-bold">SPA</p>
+          </div>
+          <div class="my-4">
+            <img src="style/cafe.png" alt="cafe" />
+            <hr />
+            <p class="h2 text-center font-weight-bold">CAFE</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end Explore facilities-->
+
+    <!--Quick reads-->
+    <div
+      class="quick_reads singleColor position-relative d-flex align-items-center my-5"
+    >
+      <div class="container">
+        <h1 class="text-center font-weight-bold mb-3">QUICK READS</h1>
+        <div
+          class="my-4 d-flex flex-md-row flex-column flex-wrap justify-content-between align-items-center"
+        >
+          <div class="my-4">
+            <img src="style/gym.png" alt="gym" />
+            <hr />
+            <p class="h4 text-center font-weight-bold">
+              IO Rooms Service Secrets
+            </p>
+          </div>
+          <div class="my-4">
+            <img src="style/spa.png" alt="spa" />
+            <hr />
+            <p class="h4 text-center font-weight-bold">
+              Health Benefits of a Gym
+            </p>
+          </div>
+          <div class="my-4">
+            <img src="style/cafe.png" alt="cafe" />
+            <hr />
+            <p class="h4 text-center font-weight-bold">5-Star Cafes</p>
+          </div>
+        </div>
+        <div class="text-center">
+          <h1
+            class="my-3 py-1 h4 px-3 d-inline-block formatBtn text-white font-weight-bold"
+          >
+            PROCEED TO OUR BLOG
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!--end Quick reads-->
   </body>
 </html>
