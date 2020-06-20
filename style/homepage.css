@@ -5,6 +5,10 @@ body {
   max-width: 1440px;
 }
 
+.actual_page_mark {
+  color: #ebe213;
+}
+
 .formatBtn {
   background-color: #16264c;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
