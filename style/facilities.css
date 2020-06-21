@@ -1,0 +1,82 @@
+/*style Some facilities*/
+
+.some_facilities,
+.some_facilities > div:first-child {
+  min-height: 957px;
+}
+
+.some_facilities {
+  margin-top: 60px;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  margin-bottom: 75px;
+}
+
+.singleColor2 {
+  color: #ba9100;
+}
+
+.single_facility {
+  /*border: blue dashed;*/
+  width: 377px;
+  height: 276px;
+}
+
+.single_facility > div {
+  bottom: -26%;
+  right: 0;
+  width: 80%;
+  box-shadow: 0px 2px 4px gray;
+
+  /*border: deeppink solid 4px;*/
+}
+
+.single_facility:nth-child(1) {
+  background: url("facilities_swimming_pool.png") border-box no-repeat center;
+}
+
+.single_facility:nth-child(2) {
+  background: url("facilities_gym.png") border-box no-repeat center;
+}
+
+.single_facility:nth-child(3) {
+  background: url("facilities_spa.png") border-box no-repeat center;
+}
+
+.single_facility:nth-child(4) {
+  background: url("facilities_conference_rooms.png") border-box no-repeat center;
+}
+
+.single_facility:nth-child(5) {
+  background: url("facilities_tennis_court.png") border-box no-repeat center;
+}
+
+.single_facility:nth-child(6) {
+  background: url("facilities_bar.png") border-box no-repeat center;
+}
+
+/*end style Some facilities*/
+
+/*style Amenities*/
+.amenities {
+  min-height: 1200px;
+}
+
+hr {
+  border: 2px solid #16264cbc;
+}
+
+.img_amenities {
+  height: 770px;
+  background: url("facilities_amenities.png") border-box no-repeat left center;
+}
+
+.text_amenities {
+  box-shadow: 4px 8px 7px rgba(0, 0, 0, 0.25);
+}
+
+.text_amenities img {
+  width: 75px;
+}
+
+/*end style Amenities*/
